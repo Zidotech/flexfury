@@ -35,7 +35,7 @@ export default function App() {
 
           <CustomButton
             title={"Get Started"}
-            handlePress={() => router.push("/sign-up")}
+            handlePress={() => router.push("/sign-in")}
             containerStyles={"w-full rounded-[32px] mt-5"}
           />
         </View>
