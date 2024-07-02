@@ -8,10 +8,13 @@ const TabIcon = ({ icon, color, focused, name, activeBgColor }) => {
       style={{
         backgroundColor: focused ? activeBgColor : "transparent",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "space-evenly",
         flexDirection: "row",
         padding: 8,
-        borderRadius: 10,
+        rowGap: 20,
+        width: 100,
+        paddingHorizontal: 10,
+        borderRadius: 20,
       }}
     >
       <Image
@@ -26,9 +29,9 @@ const TabIcon = ({ icon, color, focused, name, activeBgColor }) => {
       <Text
         style={{
           color: color,
-          fontFamily: focused ? "psemibold" : "pregular",
           fontSize: 12,
         }}
+        className={`${focused ? "font-lblack" : "font-lregular"}`}
       >
         {name}
       </Text>
@@ -47,8 +50,11 @@ const TabsLayout = ({}) => {
           //   tabBarInactiveTintColor: "#FFFFFF",
           tabBarStyle: {
             backgroundColor: "#192126",
-            borderRadius: 20,
+            borderRadius: 50,
             height: 84,
+            margin: "auto",
+            marginBottom: 10,
+            width: "90%",
           },
           // tabBarIconStyle: {},
         }}
