@@ -7,6 +7,7 @@ module.exports = {
         primary: {
           DEAFULT: "#192126",
           100: "#BBF246",
+          bg: "#F1F1F1",
         },
         secondary: {
           DEAFULT: "#8B8F92",
