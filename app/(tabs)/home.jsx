@@ -32,7 +32,7 @@ const home = () => {
                   Good Morning 🔥
                 </Text>
                 <Text className="text-2xl font-lbold text-primary-DEAFULT">
-                  Zido
+                  ZTG
                 </Text>
               </View>
 
