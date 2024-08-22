@@ -23,7 +23,7 @@ const CarouselS = () => {
       <Carousel
         ref={ref}
         width={PAGE_WIDTH}
-        height={PAGE_WIDTH * 0.6}
+        height={PAGE_WIDTH * 0.5}
         data={carouselImages}
         loop={true}
         autoPlay={true}
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     width: "100%",
-    height: PAGE_WIDTH * 0.62,
+    height: PAGE_WIDTH * 0.5,
   },
   itemContainer: {
     flex: 1,

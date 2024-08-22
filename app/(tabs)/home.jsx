@@ -1,7 +1,12 @@
 import { View, Text, FlatList, RefreshControl } from "react-native";
 import React, { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Carousel, Popular, SearchInput } from "../../components";
+import {
+  Carousel,
+  ExercisingBodyParts,
+  Popular,
+  SearchInput,
+} from "../../components";
 import CarouselS from "../../components/Carousels";
 
 const home = () => {
@@ -33,6 +38,7 @@ const home = () => {
 
       <View className=" flex-1">
         <CarouselS />
+        <ExercisingBodyParts />
       </View>
     </SafeAreaView>
   );
