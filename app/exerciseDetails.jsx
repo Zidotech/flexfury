@@ -33,7 +33,7 @@ const exerciseDetails = () => {
         <Image
           source={{ uri: item.gifUrl }}
           contentFit="cover"
-          style={{ width: wp(70), height: wp(70) }}
+          style={{ width: wp(80), height: wp(70) }}
           className="rounded-lg"
         />
       </View>
@@ -45,7 +45,7 @@ const exerciseDetails = () => {
       >
         <Animated.Text
           entering={FadeInDown.duration(300).springify()}
-          className="font-semibold text-neutral-800 tracking-wide"
+          className="font-semibold text-neutral-800 tracking-wide capitalize"
           style={{ fontSize: hp(3.5) }}
         >
           {item?.name}
@@ -55,33 +55,37 @@ const exerciseDetails = () => {
           className=" text-neutral-700 tracking-wide"
           style={{ fontSize: hp(2) }}
         >
-          Equipment{" "}
-          <Text className="font-bold text-neutral-800">{item?.equipment}</Text>
+          Equipment
+          <Text className="font-bold text-white capitalize">
+            {item?.equipment}
+          </Text>
         </Animated.Text>
 
         <Animated.Text
           entering={FadeInDown.delay(200).duration(300).springify()}
-          className=" text-neutral-700 tracking-wide"
+          className=" text-white tracking-wide"
           style={{ fontSize: hp(2) }}
         >
-          Secondary Muscles{" "}
-          <Text className="font-bold text-neutral-800">
+          Secondary Muscles
+          <Text className="font-bold text-white capitalize">
             {item?.secondaryMuscles}
           </Text>
         </Animated.Text>
 
         <Animated.Text
           entering={FadeInDown.delay(300).duration(300).springify()}
-          className=" text-neutral-700 tracking-wide"
+          className=" text-white tracking-wide"
           style={{ fontSize: hp(2) }}
         >
           Target Muscles{" "}
-          <Text className="font-bold text-neutral-800">{item?.target}</Text>
+          <Text className="font-bold text-white capitalize">
+            {item?.target}
+          </Text>
         </Animated.Text>
 
         <Animated.Text
           entering={FadeInDown.delay(400).duration(300).springify()}
-          className="font-semibold text-neutral-800 tracking-wide"
+          className="font-semibold text-white tracking-wide"
           style={{ fontSize: hp(3) }}
         >
           Instructions
@@ -95,10 +99,9 @@ const exerciseDetails = () => {
                 .springify()}
               key={index}
               style={{ fontSize: hp(1.7) }}
-              className=" text-neutral-800"
+              className=" text-white capitalize"
             >
-              {" "}
-              {instruction}{" "}
+              {instruction}
             </Animated.Text>
           );
         })}
