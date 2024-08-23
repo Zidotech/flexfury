@@ -5,16 +5,16 @@ import carousela from "../assets/images/carousela.png";
 import carouselb from "../assets/images/carouselb.png";
 import carouselc from "../assets/images/carouselc.png";
 import carouseld from "../assets/images/carouseld.png";
-import back from "../assets/images/back.png";
-import cardio from "../assets/images/cardio.png";
-import chest from "../assets/images/chest.png";
-import lowerArms from "../assets/images/lowerarms.png";
-import lowerLegs from "../assets/images/lowerlegs.png";
-import neck from "../assets/images/neck.png";
-import shoulders from "../assets/images/shoulders.png";
-import upperArms from "../assets/images/upperarms.png";
-import upperLegs from "../assets/images/upperlegs.png";
-import waist from "../assets/images/waist.png";
+import back from "../assets/images/back.jpg";
+import cardio from "../assets/images/cardio.jpg";
+import chest from "../assets/images/chest.jpg";
+import lowerArms from "../assets/images/lowerarms.jpg";
+import lowerLegs from "../assets/images/lowerlegs.jpg";
+import neck from "../assets/images/neck.jpg";
+import shoulders from "../assets/images/shoulders.jpg";
+import upperArms from "../assets/images/upperarms.jpg";
+import upperLegs from "../assets/images/upperlegs.jpg";
+import waist from "../assets/images/waist.jpg";
 
 export default {
   onboard,
