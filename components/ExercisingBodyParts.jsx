@@ -54,7 +54,7 @@ const ExerciseBodyPartCard = ({ item, index, router }) => {
     >
       <View
         className=" mb-6 flex  justify-center bg-white px-4 rounded-lg"
-        style={{ width: wp(90), height: hp(12) }}
+        style={{ width: wp(90), height: hp(11.67) }}
       >
         <TouchableOpacity
           onPress={() => router.push({ pathname: "/exercises", params: item })}

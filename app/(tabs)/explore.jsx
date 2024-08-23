@@ -4,7 +4,8 @@ import React from "react";
 const explore = () => {
   return (
     <View className="flex-1 justify-center items-center">
-      <Text>explore</Text>
+      <Text>Explore</Text>
+      <Text>Coming Soon.....!!!!!</Text>
     </View>
   );
 };

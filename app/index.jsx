@@ -14,7 +14,7 @@ export default function App() {
   return (
     <SafeAreaView className="h-full bg-white">
       <ScrollView contentContainerStyle={{ height: "100%" }}>
-        <View className="flex items-center w-full px-4 min-h-[84vh] ">
+        <View className="flex items-center w-full px-4 min-h-[84vh]">
           <Image
             source={image.onboard}
             resizeMethod="contain"
