@@ -6,27 +6,28 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-import Anticons from "react-native-vector-icons/AntDesign";
+import Ionicons from "react-native-vector-icons/Ionicons";
 import Animated, { FadeInDown } from "react-native-reanimated";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const exerciseDetails = () => {
   const item = useLocalSearchParams();
-  //console.log("items gotten", item);
 
   const router = useRouter();
   return (
     <SafeAreaView className="flex flex-1 bg-primary-DEAFULT h-full">
-      <View className="flex flex-row items-center gap-x-5 px-4">
+      <View className="flex flex-row justify-center items-center  px-4  mt-5">
         <TouchableOpacity
           onPress={() => router.back()}
-          className="rounded-full  mx-2 left-0"
-          style={{ height: hp(5.5), width: hp(5.5), marginTop: hp(3) }}
+          className="rounded-full  mx-2 "
+          style={{ height: hp(5.5), width: hp(5.5) }}
         >
-          <Anticons name="closecircle" size={hp(4.5)} color="#FFFFFF" />
+          <Ionicons name="chevron-back" size={hp(4)} color="white" />
         </TouchableOpacity>
 
-        <Text className="text-white leading-6 text-base">Workout Details</Text>
+        <Text className="text-white leading-6 text-lg w-[94%] pl-20 ">
+          Workout Details
+        </Text>
       </View>
 
       <View className="mt-6 flex items-center justify-center w-full">
@@ -45,18 +46,18 @@ const exerciseDetails = () => {
       >
         <Animated.Text
           entering={FadeInDown.duration(300).springify()}
-          className="font-semibold text-neutral-800 tracking-wide capitalize"
+          className="font-semibold text-white tracking-wide capitalize"
           style={{ fontSize: hp(3.5) }}
         >
           {item?.name}
         </Animated.Text>
         <Animated.Text
           entering={FadeInDown.delay(100).duration(300).springify()}
-          className=" text-neutral-700 tracking-wide"
+          className=" text-white tracking-wide"
           style={{ fontSize: hp(2) }}
         >
-          Equipment
-          <Text className="font-bold text-white capitalize">
+          Equipment{" "}
+          <Text className="font-bold text-white capitalize ">
             {item?.equipment}
           </Text>
         </Animated.Text>
@@ -66,7 +67,7 @@ const exerciseDetails = () => {
           className=" text-white tracking-wide"
           style={{ fontSize: hp(2) }}
         >
-          Secondary Muscles
+          Secondary Muscles{" "}
           <Text className="font-bold text-white capitalize">
             {item?.secondaryMuscles}
           </Text>
@@ -99,9 +100,10 @@ const exerciseDetails = () => {
                 .springify()}
               key={index}
               style={{ fontSize: hp(1.7) }}
-              className=" text-white capitalize"
+              className="text-white capitalize flex flex-row items-center space-x-1"
             >
-              {instruction}
+              <Text className="text-[18px] mr-1">{index + 1}.</Text>{" "}
+              {instruction.trim()}
             </Animated.Text>
           );
         })}
