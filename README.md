@@ -18,17 +18,17 @@ FitnessApp is built with the following technologies:
 
 Additional Dependencies:
 
-1. @expo/vector-icons: "^14.0.0" - Icons for React Native.
-2. @react-navigation/native: "^6.0.2" - Routing and navigation for React Native apps.
-3. axios: "^1.7.4" - Promise-based HTTP client for making API requests.
-4. expo-image: "^1.12.14" - Optimized image component for Expo apps.
-5. expo-linear-gradient: "~13.0.2" - Linear gradient backgrounds for React Native.
-6. expo-router: "~3.5.23" - Routing for Expo apps.
-7. nativewind: "^2.0.11" - Utility-first styling framework for React Native.
-8. react-native-appwrite: "^0.4.0" - SDK for integrating Appwrite backend services with React Native.
-9. react-native-gesture-handler: "~2.16.1" - Gesture handling library for React Native.
-10. react-native-reanimated: "~3.10.1" - High-performance animations library for React Native.
-11. react-native-reanimated-carousel: "^3.5.1" - Animated carousel component for React Native.
-12. react-native-responsive-screen: "^1.4.2" - Responsive screen utilities for React Native.
-13. react-native-vector-icons: "^10.1.0" - Customizable icons for React Native.
-14. react-native-virtualized-view: "^1.0.0" - Improved performance for large lists in React Native.
+1. @expo/vector-icons: - Icons for React Native.
+2. @react-navigation/native: - Routing and navigation for React Native apps.
+3. axios: - Promise-based HTTP client for making API requests.
+4. expo-image: - Optimized image component for Expo apps.
+5. expo-linear-gradient:" - Linear gradient backgrounds for React Native.
+6. expo-router: - Routing for Expo apps.
+7. nativewind: - Utility-first styling framework for React Native.
+8. react-native-appwrite: - SDK for integrating Appwrite backend services with React Native.
+9. react-native-gesture-handler: - Gesture handling library for React Native.
+10. react-native-reanimated: - High-performance animations library for React Native.
+11. react-native-reanimated-carousel: - Animated carousel component for React Native.
+12. react-native-responsive-screen: " - Responsive screen utilities for React Native.
+13. react-native-vector-icons: - Customizable icons for React Native.
+14. react-native-virtualized-view: - Improved performance for large lists in React Native.
