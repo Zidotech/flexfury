@@ -33,9 +33,7 @@ Additional Dependencies:
 13. react-native-vector-icons: - Customizable icons for React Native.
 14. react-native-virtualized-view: - Improved performance for large lists in React Native.
 
-![Home Screen](./assets//images/logo.png)
-The App Logo
-![Home Screen](./assets//images/lowerarms.jpg)
+
 
 <p align="left">
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
