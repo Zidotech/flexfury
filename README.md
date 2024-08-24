@@ -40,6 +40,6 @@ Additional Dependencies:
  
 
  <b  align='left'> The Onboarding Screen </b>
- <div>
+
 <img  align='left' alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
-</div>
+
