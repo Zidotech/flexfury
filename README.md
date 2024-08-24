@@ -34,12 +34,16 @@ Additional Dependencies:
 14. react-native-virtualized-view: - Improved performance for large lists in React Native.
 
 <b> The Onboarding Screen </b>
-
-<div>
 <img  alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
-</div>
 
+<b  align='left'> The Home Screen </b>
+<img  align='left' alt="Coding" width="400" src="/assets/images/Home-Page.jpg">
 
-<b  align='left'> The Onboarding Screen </b>
+<b  align='left'> The Explore Screen </b>
+<img  align='left' alt="Coding" width="400" src="/assets/images/Explore-screen.jpg">
 
-<img  align='left' alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
+<b  align='left'> The Exercise List Screen </b>
+<img  align='left' alt="Coding" width="400" src="/assets/images/Exercise-list-1.jpg">
+
+<b  align='left'> The Exercise Details Screen </b>
+<img  align='left' alt="Coding" width="400" src="/assets/images/Exercise-Details-page.jpg">
