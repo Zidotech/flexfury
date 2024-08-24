@@ -34,3 +34,4 @@ Additional Dependencies:
 14. react-native-virtualized-view: - Improved performance for large lists in React Native.
 
 ![Home Screen](./assets//images/logo.png)
+![Home Screen](./assets//images/lowerarms.jpg)
