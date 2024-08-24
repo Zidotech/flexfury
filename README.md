@@ -18,8 +18,8 @@ FitnessApp is built with the following technologies:
 
 Additional Dependencies:
 
-1. @expo/vector-icons: - Icons for React Native.
-2. @react-navigation/native: - Routing and navigation for React Native apps.
+1. expo/vector-icons: - Icons for React Native.
+2. react-navigation: - Routing and navigation for React Native apps.
 3. axios: - Promise-based HTTP client for making API requests.
 4. expo-image: - Optimized image component for Expo apps.
 5. expo-linear-gradient:" - Linear gradient backgrounds for React Native.
@@ -34,11 +34,9 @@ Additional Dependencies:
 14. react-native-virtualized-view: - Improved performance for large lists in React Native.
 
 <div '>
-  <b align='top' style=''>  The Onboarding Screen </b>
+  <b> The Onboarding Screen </b>
 <img  alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
 </div>
-
 <div>
 <img  alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
 </div>
- <b> The Onboarding Screen </b>
