@@ -37,7 +37,8 @@ Additional Dependencies:
 <div>
 <img  alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
 </div>
-  <b> The Onboarding Screen </b>
+ 
 <div>
 <img  alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
 </div>
+ <b> The Onboarding Screen </b>
