@@ -35,7 +35,7 @@ Additional Dependencies:
 
 
 
-<p align="left">
-<img align="left" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<div align="left">
+<img align="" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 <b> The app Logo </b>
-</p>
+</div>
