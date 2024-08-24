@@ -37,21 +37,21 @@ Additional Dependencies:
 <img  alt="Coding" width="400" src="/assets/images/Onboard-Screen.jpg">
 
 <div align='left'>
-<b  > The Home Screen </b>
+<b align='center' > The Home Screen </b>
 <img  alt="Coding" width="400" src="/assets/images/Home-Page.jpg">
 </div>
 
 <div align='left'>
-<b  > The Explore Screen </b>
+<b  align='center' > The Explore Screen </b>
 <img   alt="Coding" width="400" src="/assets/images/Explore-screen.jpg">
 </div>
 
 <div align='left'>
-<b  > The Exercise List Screen </b>
+<b  align='center' > The Exercise List Screen </b>
 <img   alt="Coding" width="400" src="/assets/images/Exercise-list-1.jpg">
 </div>
 
 <div align='left'>
-<b  > The Exercise Details Screen </b>
+<b  align='center' > The Exercise Details Screen </b>
 <img  alt="Coding" width="400" src="/assets/images/Exercise-Details-page.jpg">
 </div>
