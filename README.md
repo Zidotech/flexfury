@@ -36,3 +36,5 @@ Additional Dependencies:
 ![Home Screen](./assets//images/logo.png)
 The App Logo
 ![Home Screen](./assets//images/lowerarms.jpg)
+
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
